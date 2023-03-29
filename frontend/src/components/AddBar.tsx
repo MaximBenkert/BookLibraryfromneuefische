@@ -8,24 +8,6 @@ type AddBarProps = {
 
 export default function AddBar(props: AddBarProps){
 
-    const currencies = [
-        {
-            value: 'USD',
-            label: '$',
-        },
-        {
-            value: 'EUR',
-            label: '€',
-        },
-        {
-            value: 'BTC',
-            label: '฿',
-        },
-        {
-            value: 'JPY',
-            label: '¥',
-        },
-    ];
 
     const initialState: NewBook = {
         title: "",
